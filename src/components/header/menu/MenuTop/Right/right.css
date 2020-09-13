@@ -1,0 +1,49 @@
+.right-list-items {
+  padding-right: 35px;
+  line-height: 20px;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.right-list-items:hover {
+  opacity: 1;
+}
+
+.right-list li:last-of-type {
+  padding-right: 0px;
+  opacity: 1;
+}
+
+.chat {
+  display: flex;
+}
+
+.chat-icon {
+  width: 25px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-icon {
+  width: 17px;
+  height: 13.5px;
+}
+
+.badge {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -4px;
+  right: -4px;
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+}

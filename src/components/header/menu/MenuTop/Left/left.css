@@ -1,0 +1,22 @@
+.left-list-items {
+  padding: 0 28px;
+  border-right: 1px solid lightgrey;
+  font-size: 14px;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.left-list-items:hover {
+  opacity: 1;
+}
+
+.sp-icon {
+  width: 32px;
+  height: 20px;
+}
+.jordan-icon {
+  width: 20px;
+  height: 20px;
+}

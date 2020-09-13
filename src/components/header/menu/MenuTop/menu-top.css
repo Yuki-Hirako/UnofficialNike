@@ -1,0 +1,9 @@
+.menu-top {
+  padding: 0px 16px;
+  border-bottom: 2px solid lightgrey;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  width: 100%;
+}

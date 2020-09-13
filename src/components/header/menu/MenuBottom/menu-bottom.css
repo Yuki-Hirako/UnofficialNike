@@ -1,0 +1,28 @@
+.menu-bottom {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+}
+
+.second-item {
+  display: flex;
+  width: 100%;
+  margin-left: 23%;
+}
+
+@media (max-width: 1260px) {
+  .second-item {
+    margin-left: 10%;
+  }
+}
+
+.NikeLogo {
+  padding: 5px 0px 5px 20px;
+  width: 90px;
+  height: 100%;
+}
+
+.nike-icon {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
