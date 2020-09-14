@@ -5,7 +5,6 @@ import './globalStyles.css';
 function App() {
   return (
     <div>
-      Aplicação Web
       <Header />
     </div>
   );

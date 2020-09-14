@@ -1,7 +1,7 @@
 import React from 'react';
 import './right.css';
 import ChatIcon from '../../../../../assets/chaticon.png';
-import CartIcon from '../../../../../assets/carticon.png';
+import Badge from '../../../../badge';
 
 function RightSide() {
   return (
@@ -17,10 +17,7 @@ function RightSide() {
           </span>
         </li>
         <li className="right-list-items">
-          <div className="cart">
-            <img src={CartIcon} alt="Carrinho" className="cart-icon" />
-            <div className="badge">2</div>
-          </div>
+          <Badge />
         </li>
       </ul>
     </div>

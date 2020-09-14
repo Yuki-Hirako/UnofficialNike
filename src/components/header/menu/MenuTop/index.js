@@ -5,10 +5,12 @@ import RightSide from './Right/right';
 
 function MenuTop() {
   return (
-    <div className="menu-top">
-      <LeftSide />
-      <RightSide />
-    </div>
+    <>
+      <div className="menu-top">
+        <LeftSide />
+        <RightSide />
+      </div>
+    </>
   );
 }
 

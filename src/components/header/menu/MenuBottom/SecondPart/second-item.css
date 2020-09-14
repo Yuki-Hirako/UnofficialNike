@@ -1,14 +1,14 @@
+@media (max-width: 1260px) {
+  .second-item {
+    margin-left: 5%;
+  }
+}
+
 .center-list-items {
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: -1px;
-  border-bottom: 3px solid transparent;
-  font-size: 16px;
-  padding: 0 20px;
   height: 100%;
   display: flex;
   align-items: center;
+  font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -16,23 +16,77 @@
   border-color: black;
 }
 
-.search-icon-div {
-  display: flex;
-  align-items: center;
+@media (max-width: 1022px) {
+  .center-list-items {
+    font-size: 40px;
+    padding: 0 25px;
+    letter-spacing: 1.5px;
+  }
+  .search {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 5%;
+    height: 40%;
+    width: 90%;
+  }
+  .search-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 30px;
+  }
+  .search input {
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    border: 0;
+    align-self: center;
+    outline: none;
+  }
+
+  .search input::placeholder {
+    font-size: 40px;
+    color: #8d8d8d;
+  }
 }
 
-.search-icon {
-  width: 17px;
-  height: 17px;
-  cursor: pointer;
-  margin: 10px;
+@media (min-width: 1023px) {
+  .center-list-items {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: -1px;
+    border-bottom: 3px solid transparent;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .search-icon {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .search {
+    height: 58%;
+    width: 25%;
+    border: 0.5px solid lightgrey;
+    border-radius: 3px;
+  }
+
+  .search input {
+    height: 80%;
+    width: 100%;
+    border: 0;
+    align-self: center;
+    outline: none;
+  }
+
+  .search input::placeholder {
+    color: lightgrey;
+  }
 }
 
 .search {
-  height: 58%;
-  width: 25%;
-  border: 0.5px solid lightgrey;
-  border-radius: 3px;
   align-self: center;
   display: flex;
   background-color: white;
@@ -40,14 +94,7 @@
   padding-right: 10px;
 }
 
-.search input {
-  height: 80%;
-  width: 100%;
-  border: 0;
-  align-self: center;
-  outline: none;
-}
-
-.search input::placeholder {
-  color: lightgrey;
+.search-icon-div {
+  display: flex;
+  align-items: center;
 }

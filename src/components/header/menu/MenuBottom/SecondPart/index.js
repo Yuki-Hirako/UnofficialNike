@@ -9,7 +9,7 @@ export const List = () => {
       <li className="center-list-items">Masculino</li>
       <li className="center-list-items">Feminino</li>
       <li className="center-list-items">Infantil</li>
-      <li className="center-list-items">SNKRSs</li>
+      <li className="center-list-items">SNKRS</li>
       <li className="center-list-items">Air Max</li>
     </ul>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import NikeIcon from '../../../../../assets/nike.svg';
+import './logo.css';
 
 function Logo() {
   return (

@@ -1,9 +1,22 @@
 .menu-top {
-  padding: 0px 16px;
-  border-bottom: 2px solid lightgrey;
-  height: 30px;
   display: flex;
   justify-content: space-between;
   margin: 0px;
   width: 100%;
+}
+
+@media (max-width: 1022px) {
+  .menu-top {
+    padding: 5px 16px;
+    border-bottom: 0;
+    height: 50%;
+  }
+}
+
+@media (min-width: 1023px) {
+  .menu-top {
+    padding: 0px 16px;
+    border-bottom: 2px solid lightgrey;
+    height: 30px;
+  }
 }
