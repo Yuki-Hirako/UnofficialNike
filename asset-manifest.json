@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/projeto2-web/static/css/main.04070f5d.chunk.css",
+    "main.js": "/projeto2-web/static/js/main.5c614e75.chunk.js",
+    "main.js.map": "/projeto2-web/static/js/main.5c614e75.chunk.js.map",
+    "runtime-main.js": "/projeto2-web/static/js/runtime-main.74958662.js",
+    "runtime-main.js.map": "/projeto2-web/static/js/runtime-main.74958662.js.map",
+    "static/js/2.eb4e1ab6.chunk.js": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js",
+    "static/js/2.eb4e1ab6.chunk.js.map": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js.map",
+    "index.html": "/projeto2-web/index.html",
+    "precache-manifest.51ea3c1b8a54c6e01c1d091ffd8aea80.js": "/projeto2-web/precache-manifest.51ea3c1b8a54c6e01c1d091ffd8aea80.js",
+    "service-worker.js": "/projeto2-web/service-worker.js",
+    "static/css/main.04070f5d.chunk.css.map": "/projeto2-web/static/css/main.04070f5d.chunk.css.map",
+    "static/js/2.eb4e1ab6.chunk.js.LICENSE.txt": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js.LICENSE.txt",
+    "static/media/SP+icon.svg": "/projeto2-web/static/media/SP+icon.9645bb2f.svg",
+    "static/media/nike.svg": "/projeto2-web/static/media/nike.54ce3a36.svg",
+    "static/media/search.svg": "/projeto2-web/static/media/search.ecef733a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74958662.js",
+    "static/js/2.eb4e1ab6.chunk.js",
+    "static/css/main.04070f5d.chunk.css",
+    "static/js/main.5c614e75.chunk.js"
+  ]
+}
