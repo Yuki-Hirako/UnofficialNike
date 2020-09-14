@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {Link} from '@reach/router';
 import Spinner from './Spinner';
 import axios from 'axios';
-import '../../App.css';
+import './App.css';
 
 function Search() {
     const [data, setData] = useState({});
@@ -49,8 +49,8 @@ function Search() {
                 <input
                     type="text"
                     placeholder="rick, morty, jerry, etc"
-                    value={query}
-                    onChange={e => setQuery(e.target.value)}
+                    value={search}
+                    onChange={e => setSearch(e.target.value)}
                 />
                 <button type="submit">Search</button>
             </form>
