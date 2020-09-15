@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+header h1 {
+    font-size: 49px;
+    font-family: 'Creepster', cursive;
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.app {
+    text-align: center;
+}
+
+.app input {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border: 1;
+    border-color: black;
+}
+
+.app button {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin-left: 5px;
+    background-color: #00C5BE;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    appearance: push-button;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.results {
+    text-align: left;
+}
+
+.results ul li {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+.results ul li > a {
+}
+
+.results ul li .name {
+    display: block;
+    text-align: center;
+    width: 200px;
+}
+
+.results a img {
+    width: 200px;
+}
+
+.quote {
+    font-size: 52px;
+    color: #7d7a7a;
+    max-width: 70%;
+    margin: 30px auto;
+}
+
+.spinner {
+    width: 70px;
+}
