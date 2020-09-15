@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/projeto2-web/static/css/main.04070f5d.chunk.css",
-    "main.js": "/projeto2-web/static/js/main.5c614e75.chunk.js",
-    "main.js.map": "/projeto2-web/static/js/main.5c614e75.chunk.js.map",
+    "main.css": "/projeto2-web/static/css/main.e96f61bd.chunk.css",
+    "main.js": "/projeto2-web/static/js/main.1070b761.chunk.js",
+    "main.js.map": "/projeto2-web/static/js/main.1070b761.chunk.js.map",
     "runtime-main.js": "/projeto2-web/static/js/runtime-main.74958662.js",
     "runtime-main.js.map": "/projeto2-web/static/js/runtime-main.74958662.js.map",
-    "static/js/2.eb4e1ab6.chunk.js": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js",
-    "static/js/2.eb4e1ab6.chunk.js.map": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js.map",
+    "static/js/2.a93549da.chunk.js": "/projeto2-web/static/js/2.a93549da.chunk.js",
+    "static/js/2.a93549da.chunk.js.map": "/projeto2-web/static/js/2.a93549da.chunk.js.map",
     "index.html": "/projeto2-web/index.html",
-    "precache-manifest.51ea3c1b8a54c6e01c1d091ffd8aea80.js": "/projeto2-web/precache-manifest.51ea3c1b8a54c6e01c1d091ffd8aea80.js",
+    "precache-manifest.7b280c0cdf3266c5f1c474d3ef478053.js": "/projeto2-web/precache-manifest.7b280c0cdf3266c5f1c474d3ef478053.js",
     "service-worker.js": "/projeto2-web/service-worker.js",
-    "static/css/main.04070f5d.chunk.css.map": "/projeto2-web/static/css/main.04070f5d.chunk.css.map",
-    "static/js/2.eb4e1ab6.chunk.js.LICENSE.txt": "/projeto2-web/static/js/2.eb4e1ab6.chunk.js.LICENSE.txt",
+    "static/css/main.e96f61bd.chunk.css.map": "/projeto2-web/static/css/main.e96f61bd.chunk.css.map",
+    "static/js/2.a93549da.chunk.js.LICENSE.txt": "/projeto2-web/static/js/2.a93549da.chunk.js.LICENSE.txt",
     "static/media/SP+icon.svg": "/projeto2-web/static/media/SP+icon.9645bb2f.svg",
+    "static/media/carticon.svg": "/projeto2-web/static/media/carticon.4e4cb6a8.svg",
     "static/media/nike.svg": "/projeto2-web/static/media/nike.54ce3a36.svg",
-    "static/media/search.svg": "/projeto2-web/static/media/search.ecef733a.svg"
+    "static/media/search.svg": "/projeto2-web/static/media/search.ecef733a.svg",
+    "static/media/spinner.svg": "/projeto2-web/static/media/spinner.04a86d22.svg",
+    "static/media/conteudo.css": "/projeto2-web/static/media/veronamobile.f5284cf3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.74958662.js",
-    "static/js/2.eb4e1ab6.chunk.js",
-    "static/css/main.04070f5d.chunk.css",
-    "static/js/main.5c614e75.chunk.js"
+    "static/js/2.a93549da.chunk.js",
+    "static/css/main.e96f61bd.chunk.css",
+    "static/js/main.1070b761.chunk.js"
   ]
 }
