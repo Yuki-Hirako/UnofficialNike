@@ -1,0 +1,110 @@
+.e-mail {
+    display: flex;
+    align-self: center;
+}
+.senha {
+    display: flex;
+    align-self: center;
+}
+
+@media (max-width: 1022px) {
+    .form-div {
+        margin-top: 50px;
+        height: 150px;
+    }
+
+    .e-mail {
+        margin-right: 15%;
+        margin-left: 15%;
+        border: 1.5px solid lightgrey;
+        border-radius: 3px;
+        height: 35%;
+        width: 70%;
+    }
+    .senha {
+        margin-top: 3%;
+        margin-right: 15%;
+        margin-left: 15%;
+        border: 1.5px solid lightgrey;
+        border-radius: 3px;
+        height: 35%;
+        width: 70%;
+    }
+
+    .e-mail input {
+        height: 70%;
+        width: 100%;
+        font-size: 20px;
+        border: 0;
+        align-self: center;
+        outline: none;
+    }
+
+    .senha input {
+        height: 70%;
+        width: 100%;
+        font-size: 20px;
+        border: 0;
+        align-self: center;
+        outline: none;
+    }
+
+    .e-mail input::placeholder {
+        font-size: 18px;
+        color: #8d8d8d;
+    }
+
+    .senha input::placeholder {
+        font-size: 18px;
+        color: #8d8d8d;
+    }
+}
+
+@media (min-width: 1023px) {
+    .form-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+        height: 200px;
+    }
+    .e-mail {
+        height: 25%;
+        width: 300px;
+        border: 0.5px solid #8d8d8d;
+        border-radius: 3px;
+    }
+    .senha {
+        margin-top: 20px;
+        height: 25%;
+        width: 300px;
+        border: 0.5px solid #8d8d8d;
+        border-radius: 3px;
+    }
+
+    .e-mail input {
+        height: 80%;
+        width: 100%;
+        border: 0;
+        font-size: 18px;
+        align-self: center;
+        outline: none;
+    }
+    .senha input {
+        height: 80%;
+        width: 100%;
+        border: 0;
+        font-size: 18px;
+        align-self: center;
+        outline: none;
+    }
+
+    .e-mail input::placeholder {
+        color: lightgray;
+    }
+
+    .senha input::placeholder {
+        color: lightgray;
+    }
+}

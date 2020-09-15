@@ -11,6 +11,7 @@ import './globalStyles.css';
 import './components/api/App.css';
 
 export const SearchContext = createContext(null)
+import Pages from './routes/routes';
 
 function App() {
   const [data, setData] = useState({});
@@ -46,7 +47,7 @@ function App() {
         <Header />
         <Conteudo />
         <Search loading={loading} data={data} />
-      </SearchContext.Provider>
+      </ SearchContext.Provider>
     </div>
   );
 }
