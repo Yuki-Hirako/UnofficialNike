@@ -5,7 +5,7 @@ import './header.css';
 import Mobile from './Mobile';
 import { Search } from './menu/MenuBottom/SecondPart';
 
-function Header() {
+function Header({ }) {
   return (
     <>
       <header className="header-desktop">

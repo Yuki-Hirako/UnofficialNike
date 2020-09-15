@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import SearchIcon from '../../../../../assets/search.svg';
+
+import { SearchContext } from '../../../../../App'
+
 import './second-item.css';
 
 export const List = () => {
@@ -16,12 +19,24 @@ export const List = () => {
 };
 
 export const Search = () => {
+  const [searchData, setSearchData] = useState("")
+  const setSearch = useContext(SearchContext)
+
+  console.log(setSearch)
+
   return (
     <div className="search">
-      <div className="search-icon-div">
-        <img src={SearchIcon} alt="Buscar" className="search-icon" />
-      </div>
-      <input type="text" placeholder="O que você procura?" />
+      <button className="search-icon-div" type="submit">
+        <img src={SearchIcon} alt="Buscar" className="search-icon" onClick={(e) => {
+          e.preventDefault()
+          console.log("chamando o botão")
+          setSearch(searchData)
+        }} />
+      </button>
+      <input type="text" placeholder="O que você procura?" value={searchData} onChange={(e) => {
+        e.preventDefault()
+        setSearchData(e.target.value)
+      }} />
     </div>
   );
 };
