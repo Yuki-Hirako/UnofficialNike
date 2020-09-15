@@ -1,5 +1,5 @@
 import React from 'react';
-import CartIcon from '../assets/carticon.png';
+import CartIcon from '../assets/carticon.svg';
 
 function Badge() {
   return (
