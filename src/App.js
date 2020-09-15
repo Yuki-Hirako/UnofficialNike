@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/header';
 import './globalStyles.css';
+import Pages from './routes/routes';
 
 function App() {
   return (
     <div>
-      <Header />
+      <Pages />
     </div>
   );
 }
