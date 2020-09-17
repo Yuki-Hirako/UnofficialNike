@@ -1,122 +1,121 @@
-    .bloco_imagem{
-        margin: 0;
-        padding:0 4.86vw 4.86vw 4.86vw;
-    }  
+.bloco_imagem {
+    display: flex;
+    justify-content: center;
+}
 
-    .imagem{
-        width: 100%;
-        content: url("../../assets/veronamobile.jpg");
+.titulos {
+    text-align: center;
+    color: black;
+}
+
+.titulo {
+    line-height: 1.04;
+    font-family: Futura-ExtraBoldCond, sans-serif;
+    margin-top: 0.1px;
+}
+
+.subtitulo {
+    display: inline-block;
+}
+
+.botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao button {
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    margin: 10px;
+}
+
+.botao button:hover {
+    opacity: 0.75;
+}
+
+.bot {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1022px) {
+    .bloco_imagem {
+        margin-top: 150px;
+        padding: 0 4.86vw 4.86vw 4.86vw;
     }
-
-
-@media (max-width: 1022px){
-    .bloco_imagem{
-        margin-top: 0;
-        padding:0 4.86vw 4.86vw 4.86vw;
-    }  
-    .imagem{
+    .imagem {
         width: 100%;
         content: url("../../assets/veronamobile.jpg");
         padding: 0 10;
     }
 
-    .titulos{
-        padding-top: 0;
+    .titulos {
+        padding-top: 20px;
     }
-    .titulo{
-        font-size: 100px;
+    .titulo {
+        font-size: 30px;
         margin-bottom: 2vw;
     }
 
-    .subtitulo{
-        font-size: 40px;
+    .subtitulo {
+        font-size: 15px;
         margin-bottom: 3vw;
-    }                          
+    }
+
+    .botao {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 13.5%;
+    }
+
     .bot {
-        margin-right: 30px;
         border-radius: 50px;
-        font-size: 30px;
-        padding: 30px 60px;
+        font-size: 20px;
+        padding: 20px 40px;
         font-weight: 0;
     }
 }
 
-@media (min-width: 1023px){
-    .bloco_imagem{
+@media (min-width: 1023px) {
+    .bloco_imagem {
         margin-top: 140px;
-        padding: 0 16px; 
+        padding: 0 16px;
     }
 
-    .imagem{
+    .imagem {
         width: 100%;
         content: url("../../assets/verona.jpg");
-    }  
+    }
 
-    .titulos{
+    .titulos {
         padding-top: 1.8vw;
         padding-bottom: 4vw;
     }
 
-    .titulo{
-        margin-bottom: .7vw;
+    .titulo {
+        margin-bottom: 0.7vw;
         font-size: 65px;
     }
 
-    .subtitulo{
+    .subtitulo {
         font-size: 18px;
         margin-bottom: 1.3vw;
     }
 
-    .bot{
+    .bot {
         margin-right: 10px;
-        border-radius: 24px;    
-        font-size: 16px;
-        padding: 12px 25px;
+        border-radius: 50px;
+        font-size: 20px;
+        padding: 20px 25px;
         font-weight: 600;
+        width: 250px;
     }
-}
-
-.bloco_imagem{
-    display: flex;
-    justify-content: center;
-}
-
-.titulos{
-    text-align: center;
-    color: black;
-}
-
-.titulo{
-    line-height: 1.04;
-    font-family: Futura-ExtraBoldCond, sans-serif;
-    margin-top: .1px;
-}
-
-.subtitulo{
-    display: inline-block;
-}
-
-.botao{
-    position: relative;
-}
-
-.botao button{
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    opacity: 1;
-    transition: opacity .2s ease-in-out;
-    margin: 10px;
-}
-
-.botao button:hover{
-    opacity: 0.75;
-}
-
-.bot{
-    
-    background-color: black;
-    color: white;   
-    display: inline-block;
-
 }

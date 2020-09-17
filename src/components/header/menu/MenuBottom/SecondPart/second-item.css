@@ -26,6 +26,10 @@
 .search-icon-div {
     display: flex;
     align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
 }
 
 @media (max-width: 1022px) {

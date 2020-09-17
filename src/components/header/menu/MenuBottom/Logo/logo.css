@@ -1,29 +1,29 @@
 .NikeLogo {
-  height: 100%;
-  display: flex;
-  justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .nike-icon {
-  height: 100%;
-  cursor: pointer;
+    height: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 1023px) {
-  .NikeLogo {
-    margin-left: 20px;
-    padding: 5px 0px 5px 20px;
-    width: 90px;
-  }
+    .NikeLogo {
+        margin-left: 20px;
+        padding: 5px 0px 5px 20px;
+        width: 90px;
+    }
 
-  .nike-icon {
-    width: 100%;
-  }
+    .nike-icon {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1022px) {
-  .NikeLogo {
-    padding: 0;
-    width: 110px;
-  }
+    .NikeLogo {
+        padding: 0;
+        width: 110px;
+    }
 }
