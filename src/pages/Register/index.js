@@ -9,14 +9,6 @@ export default function Register() {
 
     async function enviaFormulario(e, email, password) {
         e.preventDefault();
-        // const resposta = await axios({
-        //     method: "post",
-        //     url: "https://reqres.in/api/register",
-        //     data: {
-        //         email,
-        //         password,
-        //     },
-        // });
         const resposta = await axios.post("https://reqres.in/api/register", {
             email,
             password,
