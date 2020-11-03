@@ -3,11 +3,13 @@ import "./right.css";
 import ChatIcon from "../../../../../assets/chaticon.png";
 import Badge from "../../../../badge";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useCookies } from "react-cookie";
 
 function RightSide() {
     let history = useHistory();
+    const [cookies, setCookie, removeCookie] = useCookies(["token"]);
     function logout() {
-        localStorage.removeItem("token");
+        removeCookie("token", { path: "/" });
         history.push("/projeto2-web/login");
     }
     return (

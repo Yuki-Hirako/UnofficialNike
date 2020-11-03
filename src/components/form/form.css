@@ -2,9 +2,22 @@
     display: flex;
     align-self: center;
 }
+.username {
+    display: flex;
+    align-self: center;
+}
 .senha {
     display: flex;
     align-self: center;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.checkbox .content {
+    width: max-content;
+    display: flex;
 }
 
 .link {
@@ -16,7 +29,7 @@
     .form-div {
         margin-top: 30px;
         margin-bottom: 100px;
-        height: 150px;
+        height: 300px;
     }
 
     .e-mail {
@@ -27,18 +40,60 @@
         height: 50px;
         width: 70%;
     }
-    .senha {
+
+    .username {
         margin-top: 3%;
         margin-right: 15%;
         margin-left: 15%;
-        margin-bottom: 100px;
         border: 1.5px solid lightgrey;
         border-radius: 3px;
         height: 50px;
         width: 70%;
     }
 
+    .senha {
+        margin-top: 3%;
+        margin-right: 15%;
+        margin-left: 15%;
+        border: 1.5px solid lightgrey;
+        border-radius: 3px;
+        height: 50px;
+        width: 70%;
+    }
+
+    .checkbox {
+        width: 100%;
+        justify-content: center;
+    }
+    .checkbox .content {
+        margin-top: 6%;
+        margin-bottom: 50px;
+        border: 1.5px solid lightgrey;
+        border-radius: 3px;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-content: center;
+    }
+
+    .checkbox label {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #8d8d8d;
+    }
+
     .e-mail input {
+        height: 70%;
+        width: 100%;
+        font-size: 20px;
+        border: 0;
+        align-self: center;
+        outline: none;
+    }
+
+    .username input {
         height: 70%;
         width: 100%;
         font-size: 20px;
@@ -56,7 +111,21 @@
         outline: none;
     }
 
+    .checkbox input {
+        height: 20px;
+        width: 20px;
+        border: 0;
+        align-self: center;
+        margin-left: 10px;
+        outline: none;
+    }
+
     .e-mail input::placeholder {
+        font-size: 18px;
+        color: #8d8d8d;
+    }
+
+    .username input::placeholder {
         font-size: 18px;
         color: #8d8d8d;
     }
@@ -67,7 +136,7 @@
     }
 
     .link {
-        margin-top: 160px;
+        margin-top: 170px;
         font-size: 12px;
     }
 }
@@ -75,7 +144,6 @@
 @media (min-width: 1023px) {
     .form-div {
         margin-top: 70px;
-        margin-bottom: 100px;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -87,13 +155,44 @@
         border: 0.5px solid #8d8d8d;
         border-radius: 3px;
     }
-    .senha {
+
+    .username {
         margin-top: 20px;
-        margin-bottom: 150px;
         height: 30%;
         width: 350px;
         border: 0.5px solid #8d8d8d;
         border-radius: 3px;
+    }
+
+    .senha {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 30%;
+        width: 350px;
+        border: 0.5px solid #8d8d8d;
+        border-radius: 3px;
+    }
+    .checkbox {
+        width: 100%;
+        justify-content: center;
+    }
+    .checkbox .content {
+        margin-top: 6%;
+        margin-bottom: 60px;
+        border: 1.5px solid lightgrey;
+        border-radius: 3px;
+        height: 50px;
+        width: 175px;
+        display: flex;
+        align-content: center;
+    }
+
+    .checkbox label {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #8d8d8d;
     }
 
     .e-mail input {
@@ -104,7 +203,8 @@
         align-self: center;
         outline: none;
     }
-    .senha input {
+
+    .username input {
         height: 80%;
         width: 100%;
         border: 0;
@@ -113,7 +213,28 @@
         outline: none;
     }
 
+    .senha input {
+        height: 80%;
+        width: 100%;
+        border: 0;
+        font-size: 18px;
+        align-self: center;
+        outline: none;
+    }
+    .checkbox input {
+        height: 20px;
+        width: 20px;
+        border: 0;
+        align-self: center;
+        margin-left: 10px;
+        outline: none;
+    }
+
     .e-mail input::placeholder {
+        color: lightgray;
+    }
+
+    .username input::placeholder {
         color: lightgray;
     }
 
@@ -121,7 +242,7 @@
         color: lightgray;
     }
     .link {
-        margin-top: 170px;
+        margin-top: 270px;
         font-size: 12px;
     }
 }

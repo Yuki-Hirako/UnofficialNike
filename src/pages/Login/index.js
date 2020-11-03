@@ -1,40 +1,45 @@
 import React, { useEffect, useState } from "react";
-import Form from "../../components/form";
+import { LoginForm } from "../../components/form";
 import TitlePag from "../../components/title";
 import axios from "axios";
 import { Link, useHistory } from "react-router-dom";
 import "../Register/notification.css";
+import { useCookies } from "react-cookie";
 
 const MESSAGE_TIMEOUT = 2000;
 
 export default function Login() {
     let history = useHistory();
+    const [cookies, setCookie] = useCookies(["token"]);
     const [message, setMessage] = useState({ message: "", type: "" });
 
-    async function enviaFormulario(e, email, password) {
+    async function enviaFormulario(e, userName, password) {
         e.preventDefault();
         try {
             const resposta = await axios({
                 method: "post",
-                url: "https://reqres.in/api/login",
+                url: "https://projeto2-web-backend-wat.herokuapp.com/login",
                 data: {
-                    email,
+                    userName,
                     password,
                 },
             });
+
             if (resposta.data) {
+                setCookie("token", resposta.data.token, {
+                    path: "/",
+                });
                 setMessage({
                     message: "Login realizado com sucesso.",
                     type: "success",
                 });
-                localStorage.setItem("token", resposta.data.token);
                 setTimeout(() => {
                     history.push("/projeto2-web");
                 }, MESSAGE_TIMEOUT);
             }
         } catch (error) {
             setMessage({
-                message: "Ocorreu um erro ao logar. Tente novamente.",
+                message: error.response.data.error,
                 type: "error",
             });
         }
@@ -59,7 +64,7 @@ export default function Login() {
                 {message.message}
             </div>
             <TitlePag text="Entrar" />
-            <Form buttonText="Login" enviaFormulario={enviaFormulario} />
+            <LoginForm buttonText="Login" enviaFormulario={enviaFormulario} />
 
             <div className="link">
                 <Link to="/projeto2-web/register">

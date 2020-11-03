@@ -1,39 +1,45 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import Form from "../../components/form";
+import { Form } from "../../components/form";
 import TitlePag from "../../components/title";
 import "./notification.css";
+import { useCookies } from "react-cookie";
 
 const MESSAGE_TIMEOUT = 2000;
 
 export default function Register() {
     let history = useHistory();
+    const [cookies, setCookie] = useCookies(["token"]);
     const [message, setMessage] = useState({ message: "", type: "" });
 
-    async function enviaFormulario(e, email, password) {
+    async function enviaFormulario(e, email, userName, password, userType) {
         e.preventDefault();
         try {
             const resposta = await axios.post(
-                "https://reqres.in/api/register",
+                "https://projeto2-web-backend-wat.herokuapp.com/cadastro",
                 {
                     email,
+                    userName,
                     password,
+                    userType: userType ? "admin" : "common",
                 }
             );
             if (resposta.data) {
+                setCookie("token", resposta.data.token, {
+                    path: "/",
+                });
                 setMessage({
-                    message: "Registro realizado com sucesso.",
+                    message: "Cadastro realizado com sucesso.",
                     type: "success",
                 });
-                localStorage.setItem("token", resposta.data.token);
                 setTimeout(() => {
                     history.push("/projeto2-web");
                 }, MESSAGE_TIMEOUT);
             }
         } catch (error) {
             setMessage({
-                message: "Ocorreu um erro ao registrar. Tente novamente.",
+                message: error.response.data.error,
                 type: "error",
             });
         }
