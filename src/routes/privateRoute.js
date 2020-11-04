@@ -4,7 +4,7 @@ import { useCookies } from "react-cookie";
 
 function PrivateRoute({ component: Component, ...rest }) {
     const [cookies, setCookie] = useCookies(["token"]);
-    const isAuthenticated = cookies.token ? true : false;
+    const isAuthenticated = () => (cookies.token ? true : false);
 
     return (
         <Route
