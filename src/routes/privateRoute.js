@@ -8,6 +8,7 @@ function PrivateRoute({ component: Component, ...rest }) {
     const isAuthenticated = async () => {
         axios.get(
             "https://projeto2-web-backend-wat.herokuapp.com/verifyToken",
+            { headers: { "Access-Control-Allow-Origin": "*" } },
             { withCredentials: true }
         );
     };
