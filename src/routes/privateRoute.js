@@ -11,6 +11,7 @@ function PrivateRoute({ component: Component, ...rest }) {
             { xsrfCookieName: "token", withCredentials: true }
         );
         if (response.status === 200) return true;
+        console.log("aq");
         return false;
     };
 
