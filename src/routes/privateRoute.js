@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Redirect } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import axios from "axios";
@@ -12,12 +12,14 @@ function PrivateRoute({ component: Component, ...rest }) {
                 { xsrfCookieName: "token", withCredentials: true }
             );
             if (response.status === 200) return true;
-            console.log(response.status);
         } catch (err) {
-            console.log(err.response);
             return false;
         }
     };
+
+    useEffect(() => {
+        console.log(isAuthenticated);
+    }, []);
 
     return (
         <Route
