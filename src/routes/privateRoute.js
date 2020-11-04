@@ -10,7 +10,7 @@ function PrivateRoute({ component: Component, ...rest }) {
             "https://projeto2-web-backend-wat.herokuapp.com/verifyToken",
             { xsrfCookieName: "token", withCredentials: true }
         );
-        console.log(response);
+        console.log(response.request);
         if (response.status === 200) return true;
         return false;
     };
