@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/UnofficialNike-frontend/static/css/main.7e35d730.chunk.css",
-    "main.js": "/UnofficialNike-frontend/static/js/main.a603630a.chunk.js",
-    "main.js.map": "/UnofficialNike-frontend/static/js/main.a603630a.chunk.js.map",
-    "runtime-main.js": "/UnofficialNike-frontend/static/js/runtime-main.f31de17c.js",
-    "runtime-main.js.map": "/UnofficialNike-frontend/static/js/runtime-main.f31de17c.js.map",
-    "static/js/2.f0c00c37.chunk.js": "/UnofficialNike-frontend/static/js/2.f0c00c37.chunk.js",
-    "static/js/2.f0c00c37.chunk.js.map": "/UnofficialNike-frontend/static/js/2.f0c00c37.chunk.js.map",
-    "index.html": "/UnofficialNike-frontend/index.html",
-    "precache-manifest.aa18b1d5f08cc6232f70566b12bba886.js": "/UnofficialNike-frontend/precache-manifest.aa18b1d5f08cc6232f70566b12bba886.js",
-    "service-worker.js": "/UnofficialNike-frontend/service-worker.js",
-    "static/css/main.7e35d730.chunk.css.map": "/UnofficialNike-frontend/static/css/main.7e35d730.chunk.css.map",
-    "static/js/2.f0c00c37.chunk.js.LICENSE.txt": "/UnofficialNike-frontend/static/js/2.f0c00c37.chunk.js.LICENSE.txt",
-    "static/media/SP+icon.svg": "/UnofficialNike-frontend/static/media/SP+icon.9645bb2f.svg",
-    "static/media/carticon.svg": "/UnofficialNike-frontend/static/media/carticon.4e4cb6a8.svg",
-    "static/media/nike.svg": "/UnofficialNike-frontend/static/media/nike.54ce3a36.svg",
-    "static/media/search.svg": "/UnofficialNike-frontend/static/media/search.ecef733a.svg",
-    "static/media/spinner.svg": "/UnofficialNike-frontend/static/media/spinner.04a86d22.svg",
-    "static/media/conteudo.css": "/UnofficialNike-frontend/static/media/veronamobile.f5284cf3.jpg"
+    "main.css": "/UnofficialNike/static/css/main.f64a42b4.chunk.css",
+    "main.js": "/UnofficialNike/static/js/main.a9ae4a7b.chunk.js",
+    "main.js.map": "/UnofficialNike/static/js/main.a9ae4a7b.chunk.js.map",
+    "runtime-main.js": "/UnofficialNike/static/js/runtime-main.061a28b7.js",
+    "runtime-main.js.map": "/UnofficialNike/static/js/runtime-main.061a28b7.js.map",
+    "static/js/2.f0c00c37.chunk.js": "/UnofficialNike/static/js/2.f0c00c37.chunk.js",
+    "static/js/2.f0c00c37.chunk.js.map": "/UnofficialNike/static/js/2.f0c00c37.chunk.js.map",
+    "index.html": "/UnofficialNike/index.html",
+    "precache-manifest.0710f657889ab4d8806f17afe95c1ae6.js": "/UnofficialNike/precache-manifest.0710f657889ab4d8806f17afe95c1ae6.js",
+    "service-worker.js": "/UnofficialNike/service-worker.js",
+    "static/css/main.f64a42b4.chunk.css.map": "/UnofficialNike/static/css/main.f64a42b4.chunk.css.map",
+    "static/js/2.f0c00c37.chunk.js.LICENSE.txt": "/UnofficialNike/static/js/2.f0c00c37.chunk.js.LICENSE.txt",
+    "static/media/SP+icon.svg": "/UnofficialNike/static/media/SP+icon.9645bb2f.svg",
+    "static/media/carticon.svg": "/UnofficialNike/static/media/carticon.4e4cb6a8.svg",
+    "static/media/nike.svg": "/UnofficialNike/static/media/nike.54ce3a36.svg",
+    "static/media/search.svg": "/UnofficialNike/static/media/search.ecef733a.svg",
+    "static/media/spinner.svg": "/UnofficialNike/static/media/spinner.04a86d22.svg",
+    "static/media/conteudo.css": "/UnofficialNike/static/media/veronamobile.f5284cf3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f31de17c.js",
+    "static/js/runtime-main.061a28b7.js",
     "static/js/2.f0c00c37.chunk.js",
-    "static/css/main.7e35d730.chunk.css",
-    "static/js/main.a603630a.chunk.js"
+    "static/css/main.f64a42b4.chunk.css",
+    "static/js/main.a9ae4a7b.chunk.js"
   ]
 }
