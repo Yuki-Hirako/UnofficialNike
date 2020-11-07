@@ -13,7 +13,7 @@ function PrivateRoute({ component: Component, ...rest }) {
                 isAuthenticated() ? (
                     <Component {...props} />
                 ) : (
-                    <Redirect to="/projeto2-web/login" />
+                    <Redirect to="/UnofficialNike/login" />
                 )
             }
         />

@@ -10,7 +10,7 @@ function RightSide() {
     const [cookies, setCookie, removeCookie] = useCookies(["token"]);
     function logout() {
         removeCookie("token", { path: "/" });
-        history.push("/projeto2-web/login");
+        history.push("/UnofficialNike/login");
     }
     return (
         <div>

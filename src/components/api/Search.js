@@ -11,7 +11,7 @@ function Search({ loading, data }) {
                 <ul>
                     {data?.results?.map((item) => (
                         <li key={item.id}>
-                            <Link to={`/projeto2-web/details/${item.id}`}>
+                            <Link to={`/UnofficialNike/details/${item.id}`}>
                                 <img alt={item.name} src={item.image} />
                                 <span className="name"> {item.name}</span>
                             </Link>

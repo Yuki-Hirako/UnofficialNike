@@ -18,7 +18,7 @@ export default function Login() {
         try {
             const resposta = await axios({
                 method: "post",
-                url: "https://projeto2-web-backend-wat.herokuapp.com/login",
+                url: "https://UnofficialNike-backend-wat.herokuapp.com/login",
                 data: {
                     userName,
                     password,
@@ -34,7 +34,7 @@ export default function Login() {
                     type: "success",
                 });
                 setTimeout(() => {
-                    history.push("/projeto2-web");
+                    history.push("/UnofficialNike");
                 }, MESSAGE_TIMEOUT);
             }
         } catch (error) {
@@ -67,7 +67,7 @@ export default function Login() {
             <LoginForm buttonText="Login" enviaFormulario={enviaFormulario} />
 
             <div className="link">
-                <Link to="/projeto2-web/register">
+                <Link to="/UnofficialNike/register">
                     Não está registrado? Junte-se a nós.
                 </Link>
             </div>

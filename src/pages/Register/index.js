@@ -17,7 +17,7 @@ export default function Register() {
         e.preventDefault();
         try {
             const resposta = await axios.post(
-                "https://projeto2-web-backend-wat.herokuapp.com/cadastro",
+                "https://UnofficialNike-backend-wat.herokuapp.com/cadastro",
                 {
                     email,
                     userName,
@@ -34,7 +34,7 @@ export default function Register() {
                     type: "success",
                 });
                 setTimeout(() => {
-                    history.push("/projeto2-web");
+                    history.push("/UnofficialNike");
                 }, MESSAGE_TIMEOUT);
             }
         } catch (error) {
@@ -67,7 +67,7 @@ export default function Register() {
             <Form buttonText="Criar Conta" enviaFormulario={enviaFormulario} />
 
             <div className="link">
-                <Link to="/projeto2-web/login">
+                <Link to="/UnofficialNike/login">
                     Já é um usuário? Fazer login.
                 </Link>
             </div>

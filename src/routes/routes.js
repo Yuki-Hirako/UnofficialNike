@@ -15,16 +15,16 @@ export default function Pages() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/projeto2-web/login">
+                <Route exact path="/UnofficialNike/login">
                     <Login />
                 </Route>
-                <Route exact path="/projeto2-web/register">
+                <Route exact path="/UnofficialNike/register">
                     <Register />
                 </Route>
-                <PrivateRoute exact path="/projeto2-web" component={Home} />
+                <PrivateRoute exact path="/UnofficialNike" component={Home} />
                 <PrivateRoute
                     exact
-                    path="/projeto2-web/details/:id"
+                    path="/UnofficialNike/details/:id"
                     component={Details}
                 />
             </Switch>

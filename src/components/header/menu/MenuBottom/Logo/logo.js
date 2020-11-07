@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Logo() {
     return (
         <div className="NikeLogo">
-            <Link to="/projeto2-web/">
+            <Link to="/UnofficialNike/">
                 <img
                     src={NikeIcon}
                     alt="Nike Não-Oficial"
