@@ -17,7 +17,7 @@ export default function Register() {
         e.preventDefault();
         try {
             const resposta = await axios.post(
-                "https://UnofficialNike-backend-wat.herokuapp.com/cadastro",
+                "https://projeto2-web-backend-wat.herokuapp.com/cadastro",
                 {
                     email,
                     userName,

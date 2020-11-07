@@ -18,7 +18,7 @@ export default function Login() {
         try {
             const resposta = await axios({
                 method: "post",
-                url: "https://UnofficialNike-backend-wat.herokuapp.com/login",
+                url: "https://projeto2-web-backend-wat.herokuapp.com/login",
                 data: {
                     userName,
                     password,
