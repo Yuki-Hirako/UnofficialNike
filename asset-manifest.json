@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/UnofficialNike/static/css/main.f64a42b4.chunk.css",
-    "main.js": "/UnofficialNike/static/js/main.06b2c8c5.chunk.js",
-    "main.js.map": "/UnofficialNike/static/js/main.06b2c8c5.chunk.js.map",
+    "main.js": "/UnofficialNike/static/js/main.6f7a895c.chunk.js",
+    "main.js.map": "/UnofficialNike/static/js/main.6f7a895c.chunk.js.map",
     "runtime-main.js": "/UnofficialNike/static/js/runtime-main.061a28b7.js",
     "runtime-main.js.map": "/UnofficialNike/static/js/runtime-main.061a28b7.js.map",
     "static/js/2.f0c00c37.chunk.js": "/UnofficialNike/static/js/2.f0c00c37.chunk.js",
     "static/js/2.f0c00c37.chunk.js.map": "/UnofficialNike/static/js/2.f0c00c37.chunk.js.map",
     "index.html": "/UnofficialNike/index.html",
-    "precache-manifest.236914301ef4ca190df72ffcea9d5198.js": "/UnofficialNike/precache-manifest.236914301ef4ca190df72ffcea9d5198.js",
+    "precache-manifest.812a073f6090dc0dd53a8c3b25428c36.js": "/UnofficialNike/precache-manifest.812a073f6090dc0dd53a8c3b25428c36.js",
     "service-worker.js": "/UnofficialNike/service-worker.js",
     "static/css/main.f64a42b4.chunk.css.map": "/UnofficialNike/static/css/main.f64a42b4.chunk.css.map",
     "static/js/2.f0c00c37.chunk.js.LICENSE.txt": "/UnofficialNike/static/js/2.f0c00c37.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.061a28b7.js",
     "static/js/2.f0c00c37.chunk.js",
     "static/css/main.f64a42b4.chunk.css",
-    "static/js/main.06b2c8c5.chunk.js"
+    "static/js/main.6f7a895c.chunk.js"
   ]
 }
